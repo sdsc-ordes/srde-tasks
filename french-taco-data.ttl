@@ -1,6 +1,7 @@
 @prefix ex: <http://example.org/> .
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 # Alice's Data
 ex:Alice a schema:Person ;
@@ -18,7 +19,7 @@ ex:Alice a schema:Person ;
         schema:addressLocality "Wonderland" ;
         schema:postalCode "45678"
     ] ;
-    ex:favoriteTacoOrder [ a ex:TacoOrder ;
+    ex:favoriteTacoOrder [ a ex:FrenchTacoOrder ;
         ex:size "Tacos XL" ;
         ex:meat "Escalope de poulet" ;
         ex:garnitures "Frites" ;
@@ -41,7 +42,7 @@ ex:Bob a schema:Person ;
         schema:addressLocality "Mapleton" ;
         schema:postalCode "98765"
     ] ;
-    ex:favoriteTacoOrder [ a ex:TacoOrder ;
+    ex:favoriteTacoOrder [ a ex:FrenchTacoOrder ;
         ex:size "Tacos GIGA" ;
         ex:meat "Kebab" ;
         ex:garnitures "Salade", "Frites" ;

@@ -1,6 +1,7 @@
 @prefix ex: <http://example.org/> .
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 # Alice mexican tacos
 ex:Alice a schema:Person ;
